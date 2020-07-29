@@ -11,7 +11,7 @@
     <title>Chat | Kakao Clone</title>
   </head>
 
-  <body>
+  <body class="chat_body">
     <!-- This is the status bar of kakao clone -->
     <div class="status-bar">
       <div class="status-bar_column">
@@ -48,42 +48,73 @@
     </header>
 
     <main class="chat">
-      <ul class="chat_message">
+      <ul class="chat_message message">
         <span class="chat_timestamp">Friday, January 11, 2020</span>
-        <li class="incoming-message message">
+        <li class="incoming-message">
           <img src="images/avatar.jpg" class="message_avatar" />
           <div class="message_content">
             <span class="message_author">Best Friend</span>
-          </div>
-          <div class="message_buble">
-            Congrats I love you!
+            <div class="message_bubble">
+              Congrats I love you!
+            </div>
           </div>
           <span class="message_timestamp"></span>
         </li>
 
-        <li class="incoming-message message">
+        <li class="sent-message">
+          <div class="message_content">
+            <span class="message_timestamp"></span>
+            <div class="message_bubble">
+              Thank you see you soon!
+            </div>
+          </div>
+        </li>
+
+        <li class="incoming-message">
+          <img src="images/avatar.jpg" class="message_avatar" />
+          <div class="message_content">
+            <span class="message_author">Best Friend</span>
+            <div class="message_bubble">
+              Congrats I love you!
+            </div>
+          </div>
           <span class="message_timestamp"></span>
-          <div class="message_buble">
-            Thank you
+        </li>
+
+        <li class="sent-message">
+          <div class="message_content">
+            <span class="message_timestamp"></span>
+            <div class="message_bubble">
+              Thank you see you soon!
+            </div>
+          </div>
+        </li>
+
+        <li class="sent-message">
+          <div class="message_content">
+            <span class="message_timestamp"></span>
+            <div class="message_bubble">
+              Oh my goodness!
+            </div>
           </div>
         </li>
       </ul>
     </main>
 
     <div class="chat_write">
-      <div class="chat_write-colum">
+      <div class="chat_write-column">
         <span class="chat_write-icon">
           <i class="far fa-plus-square"></i>
         </span>
       </div>
-      <div class="chat_write-colum">
+      <div class="chat_write-column">
         <input
           type="text"
           placeholder="Send message"
           class="chat_write-input"
         />
       </div>
-      <div class="chat_write-colum">
+      <div class="chat_write-column">
         <span class="chat_write-icon">
           <i class="far fa-smile"></i>
         </span>
