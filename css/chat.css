@@ -130,3 +130,9 @@
   border-bottom-right-radius: 0px;
   background-image: linear-gradient(to left, #74ebd5, #acb6e5);
 }
+
+.chat-margin {
+  background-image: url("../images/chat_background.png");
+  height: 100px;
+  border: none;
+}
